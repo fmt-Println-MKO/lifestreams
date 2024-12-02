@@ -9,7 +9,7 @@
 	<description>lifestreams</description>
 
 	<properties>
-		<spring.version>4.0.5.RELEASE</spring.version>
+		<spring.version>6.1.14</spring.version>
 		<jdk.version>1.6</jdk.version>
 		<start-class>org.ohmage.lifestreams.Application</start-class>
 	</properties>
@@ -69,7 +69,7 @@
 		<dependency>
 			<groupId>org.apache.storm</groupId>
 			<artifactId>storm-core</artifactId>
-			<version>0.9.1-incubating</version>
+			<version>1.2.3</version>
 			<exclusions>
 				<exclusion>
 					<artifactId>logback-core</artifactId>
